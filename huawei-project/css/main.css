@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Huawei Sans';
+    src: url('../font/HuaweiSans.eot');
+    src: url('HuaweiSans.eot?#iefix') format('embedded-opentype'),
+        url('../font/HuaweiSans.woff2') format('woff2'),
+        url('../font/HuaweiSans.woff') format('woff'),
+        url('../font/HuaweiSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    font-family: 'Huawei Sans';
+
+}
+
+
+.img1-caption {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.323));
+}
+
+input {
+    outline: 0;
+}
+li{
+    cursor: pointer;
+}
+.shadow-focus {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.305);
+}
+
+/* .hide {
+    animation: footer 500ms ease 1 paused;
+} */
+.close {
+    display: none;
+}
+
+.hide {
+    animation: footer_close 500ms ease 1;
+}
+
+.open {
+    animation: footer 500ms ease 1;
+}
+
+@keyframes footer {
+    from {
+        transform: translateY(-100px);
+        height: 0px;
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        height: inherit;
+        opacity: 1;
+    }
+}
+
+@keyframes footer_close {
+
+    from {
+        transform: translateY(0px);
+        height: inherit;
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-100px);
+        height: 0px;
+        opacity: 0;
+
+    }
+
+
+
+}
+
+.img-caption {
+    transform: translateY(43px);
+    transition: all ease 300ms;
+}
+
+.whats-new-img:hover .img-caption {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.701));
+    transform: translateY(0px);
+
+}
+
+.whats-new-img:hover img {
+    transition: all ease 500ms;
+    transform: scale(1.05);
+}
+
+.event-lg img {
+    transition: all ease 500ms;
+}
+
+.event-lg:hover img {
+    transform: scale(1.05);
+
+}
+
+.event-lg:hover .event-caption {
+    background-color: #ebebeb;
+}
+
+@media all and (min-width:1000px) {
+    .lg-news-events {
+        height: calc(1050px - 5vw);
+    }
+}
+
+.swiper-slide img{
+    object-fit: cover;
+}
+.sub-close{
+    transition: all ease 300ms;
+    /* transform: translateY(-500px); */
+    height: 0px;
+}
+.sub-open{
+    transition: all ease 300ms;
+    height: 500px;
+    /* transform: translateY(0px); */
+}
+.product-submenu{
+    z-index: 30;
+}
+
+.trans-x{
+    transform: translateX(1100px);
+    transition: all ease 300ms;
+}
+.trans-x-open{
+    transition: all ease 300ms;
+    transform: translateX(0px);
+}
+
+.trans-x-ham{
+    transform: translateX(1000px);
+    transition: all ease 300ms;
+    position: fixed;
+    top: 50px;
+    /* background-image: linear-gradient(red, blue); */
+}
+.trans-x-open-ham{
+    transition: all ease 300ms;
+    transform: translateX(0px);
+}
+
+.width-closing-search{
+    transform: scaleX(0);
+    transition: all ease 300ms;
+}
+
+.width-opening-search{
+    transform: scaleX(1);
+    transition: all ease 300ms;
+}

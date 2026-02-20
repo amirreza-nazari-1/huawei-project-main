@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huawei - Building a Fully Connected, Intelligent World</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- --------------------------------nav--------------------------- -->
+
+    <div
+        class="nav w-[100%] h-[66px] shadow-md shadow-dark-500/50 flex items-center justify-between sticky top-0 z-40 bg-white mt-0">
+
+
+        <img class="w-[103px] ms-[30px] logo cursor-pointer" src="img/2.png">
+
+
+        <div class="nav-content hidden lg:flex">
+            <ul class="flex text-[14.4px]">
+                <li class="mx-[18px] cursor-pointer">Consumer Products</li>
+                <li class="mx-[18px] cursor-pointer">Business Products</li>
+                <li class="mx-[18px] cursor-pointer">Support</li>
+                <li class="mx-[18px] cursor-pointer">Partners & Developers </li>
+                <li class="mx-[15px] cursor-pointer">About Huawei</li>
+            </ul>
+        </div>
+
+        <div class="nav-items text-[24px] w-[100px] flex justify-between me-[30px]">
+            <i class="cursor-pointer nav-search bi bi-search search-icon block lg:hidden"></i>
+            <i class="cursor-pointer nav-search bi bi-search search-icon2 hidden lg:block"></i>
+            <i class="cursor-pointer  bi-list list-icon lg:hidden"></i>
+        </div>
+
+        <!-- search-lg-icon -->
+
+        <div class="search-lg me-[7%] width-closing-search close">
+            <div class="search-lg-box w-[430px] h-[48px] border-gray-400 border flex justify-evenly items-center">
+                <input class="w-[80%] h-[100%] text-[20px] search-lg-inp" type="search"
+                    placeholder=" Search Huawei.com">
+                <i class="bi bi-search text-[24px] text-gray-500"></i>
+            </div>
+
+            <div
+                class="search-direct-box w-[430px] py-[30px] shadow shadow-md fixed z-10 bg-white mt-[10px] rounded-md close">
+                <ul class="w-[100%] h-[90%] m-auto flex justify-center items-center flex-col">
+                    <li class="text-gray-400 w-[100%] my-[7px] px-[30px]"><strong>Quick Links</strong></li>
+                    <li
+                        class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                        Tablet</li>
+                    <li
+                        class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                        phone</li>
+                    <li
+                        class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                        Watch</li>
+                    <li
+                        class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                        MateBook</li>
+                    <li
+                        class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                        Huawei Health</li>
+                    <li
+                        class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                        Huawei HiSuite</li>
+                    <li
+                        class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                        FreeClip</li>
+                    <li
+                        class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                        PC</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="close-search px-[20px] close">
+            <i class="bi bi-x-octagon  text-[30px]"></i>
+        </div>
+
+    </div>
+
+    <!-- ----------------------------Hamburger------------------- -->
+    <div class="hamburger w-[100%] h-[100vh] fixed bg-white lg:hidden z-50 trans-x ">
+
+        <div class="ham-item w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+            <h3><strong> Consumer Products &nbsp; ></strong></h3>
+        </div>
+
+
+        <div class="ham-item w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+            <h3><strong> Business Products &nbsp; ></strong></h3>
+        </div>
+
+
+        <div class="ham-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+            <h3><strong> Support &nbsp; ></strong></h3>
+        </div>
+
+
+        <div class="ham-item w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+            <h3><strong> Partners Developers &nbsp; ></strong></h3>
+        </div>
+
+
+        <div class="ham-item w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+            <h3><strong> About Huawei &nbsp; ></strong></h3>
+        </div>
+
+        <!-- ham-value1 -->
+        <div class="ham-value relative  top-0 w-[100%] pb-[60px] trans-x-ham ">
+
+
+            <div class="back w-[90%] m-auto  h-[50px] flex items-center text-gray-600">
+                <span> back to the main menu</span>
+            </div>
+
+            <div class="border-b border-gray-300 w-[98%] text-[25px] m-auto"> <span>Consumer Products</span> </div>
+            <div class="w-[100%] h-[530px] bg-white flex flex-col items-center justify-evenly ">
+                <ul
+                    class="nav-sub-ul w-[600px] h-[80%] flex flex-col items-start justify-center text-gray-600 overflow-hidden">
+                    <div class="br-nav flex ms-[30px]">
+                        <li class="flex flex-col justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                                class="text-[55px] bi bi-phone"></i> <span>Smart Phone</span></li>
+                        <li class="flex flex-col justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                                class="text-[55px] bi bi-laptop"></i> <span>PC</span></li>
+                        <li class="flex flex-col justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                                class="text-[55px] bi bi-tablet"></i> <span>Tablet</span></li>
+                        <li class="flex flex-col justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                                class="text-[55px] bi bi-smartwatch"></i> <span>Wearable</span></li>
+                        <li class="flex flex-col justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                                class="text-[55px] bi bi-earbuds"></i> <span>Audio</span></li>
+                    </div>
+                    <div class="br-nav flex ms-[30px]">
+                        <li class="flex flex-col justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                                class="text-[55px] bi bi-router"></i> <span>Router</span></li>
+                        <li class="flex flex-col justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                                class="text-[55px] bi bi-backpack4-fill"></i> <span>EMUI</span></li>
+                        <li class="flex flex-col justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                                class="text-[55px] bi bi-phone-fill"></i> <span>Accesories</span></li>
+                        <li class="flex flex-col justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                                class="text-[55px] bi bi-arrow-right-circle-fill"></i> <span>All Products</span>
+                        </li>
+                    </div>
+                </ul>
+
+                <div class="nav-video w-[30%] h-[80%] overflow-hidden ">
+                    <!-- <img class="w-[100%] h-[100%]" src="videos/mate-x7.mp4" alt=""> -->
+                    <video class="" autoplay src="videos/mate-x7.mp4"></video>
+                </div>
+
+
+                <i class="sub-product-cross absolute top-5 right-[5%] text-[25px] bi bi-x-lg close"></i>
+
+            </div>
+
+            <div
+                class="nav-sub-bottom absolute bottom-0 bg-gray-100 w-[100%] h-[40px] flex items-center  justify-start">
+                <i class="bi bi-person ms-[3%] text-[30px] text-red-600"></i><span class="text-[10px]">Consumer
+                    Website</span>
+            </div>
+        </div>
+        <!-- ham-value2 -->
+
+
+
+        <div class="ham-value2 w-[100%] h-[120vh] trans-x-ham">
+
+
+            <div class="back w-[90%] m-auto h-[50px] flex items-center text-gray-600">
+                <span> back to the main menu</span>
+            </div>
+
+            <div class="border-b border-gray-300 w-[98%] text-[25px] m-auto"> <span>Consumer Products</span> </div>
+
+            <div class="bus-item w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> product &nbsp; ></strong></h3>
+            </div>
+            <div class="bus-value close">
+                <ul class="w-[100%] h-[90%] m-auto">
+                    <li class="my-[15px] w-[90%] m-auto text-gray-600 border-b border-gray-300 py-[5px]">Carrier
+                        Network
+                    </li>
+                    <li class="my-[15px] w-[90%] m-auto text-gray-600 border-b border-gray-300 py-[5px]">Enterprise
+                        Networking</li>
+                    <li class="my-[15px] w-[90%] m-auto text-gray-600 border-b border-gray-300 py-[5px]">Enterprise
+                        Optical Networking</li>
+                    <li class="my-[15px] w-[90%] m-auto text-gray-600 border-b border-gray-300 py-[5px]">Enterprise
+                        Wireless</li>
+                    <li class="my-[15px] w-[90%] m-auto text-gray-600 border-b border-gray-300 py-[5px]">Data
+                        Storage
+                    </li>
+                    <li class="my-[15px] w-[90%] m-auto text-gray-600 border-b border-gray-300 py-[5px]">Huawei
+                        Cloud
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pro-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Services &nbsp; ></strong></h3>
+            </div>
+            <div class="pro-value close">
+
+                <ul class="w-[90%] h-[90%] m-auto">
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Carrier Services</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Enterprise Services</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Cloud Services</li>
+                </ul>
+            </div>
+            <div class="sol-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Industry Solutions &nbsp; ></strong></h3>
+            </div>
+            <div class="sol-value close">
+
+                <ul class="w-[90%] h-[90%] m-auto">
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Telecommunications</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Education</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Finance</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Manufacturing</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Airport</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Urban Rail</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">See more ></li>
+                </ul>
+            </div>
+
+            <div class="val2-link-box w-[100%] h-[40px] bg-gray-100 mt-[10px] flex items-center px-[20px]"><a
+                    href="">Enterprise Website</a></div>
+            <div class="val2-link-box w-[100%] h-[40px] bg-gray-100 mt-[10px] flex items-center px-[20px]"><a
+                    href="">Carrier Website</a></div>
+            <div class="val2-link-box w-[100%] h-[40px] bg-gray-100 mt-[10px] flex items-center px-[20px]"><a
+                    href="">Huawei Cloud Website</a></div>
+            <div class="val2-link-box w-[100%] h-[40px] bg-gray-100 mt-[10px] flex items-center px-[20px]"><a
+                    href="">Digital Power Website</a></div>
+
+
+        </div>
+        <!-- ham-value3 -->
+        <div class="ham-value w-[100%] h-[120vh] trans-x-ham">
+
+
+            <div class="back w-[90%] m-auto h-[50px] flex items-center text-gray-600">
+                <span> back to the main menu </span>
+            </div>
+
+            <div class="border-b border-gray-300 w-[98%] text-[25px] m-auto ps-[10px]"> <span><strong> Support
+                    </strong></span> </div>
+
+            <div class="cons-item   w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Consumer support ></strong></h3>
+            </div>
+
+            <div class="cons-value close">
+                <ul class="w-[90%] h-[90%] m-auto">
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Find Service Center</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Product Support</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Product Environmental
+                        Information</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Call Us</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Email Us</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">See more ></li>
+                </ul>
+            </div>
+
+            <div class="cloud-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Huawei Cloud Support &nbsp; ></strong></h3>
+            </div>
+            <div class="cloud-value close">
+                <ul class="w-[90%] h-[90%] m-auto">
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Self Service</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Service Assurance</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Support Plans</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Public Notices</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Feedback</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">See More ></li>
+                </ul>
+            </div>
+            <div class="enter-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Enterprise Support &nbsp; ></strong></h3>
+            </div>
+            <div class="enter-value close">
+
+                <ul class="w-[90%] h-[90%] m-auto ">
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Online Support</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Product Support</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Software Download</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Community</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Tools</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">See more ></li>
+                </ul>
+            </div>
+
+            <div class="carr-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Carrier Support &nbsp; ></strong></h3>
+            </div>
+            <div class="carr-value close">
+
+                <ul class="w-[90%] h-[90%] m-auto ">
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Product Support</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Group Space</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Bulletins</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">Documentation Express</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">HedEx Lite</li>
+                    <li class="my-[15px] text-gray-600 border-b border-gray-300 py-[5px]">See more ></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- ham-value4 -->
+        <div class="ham-value w-[100%] h-[120vh] trans-x-ham">
+
+
+            <div class="back w-[90%] m-auto h-[50px] flex items-center text-gray-600">
+                <span> back to the main menu </span>
+            </div>
+
+            <div class="border-b border-gray-300 w-[98%] text-[25px] m-auto ps-[10px]"> <span><strong> Partners
+                        & Developers
+                    </strong></span> </div>
+
+            <div class="par-item   w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Partners ></strong></h3>
+            </div>
+
+            <div class="par-value close">
+                <ul class="w-[90%] h-[90%] m-auto">
+                    <h3 class="text-[20px]"><strong> Partners </strong></h3>
+                    <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Enterprise Partners</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Huawei Cloud Partners</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Digital Power Partners</li>
+                </ul>
+            </div>
+
+            <div class="dev-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Developers &nbsp; ></strong></h3>
+            </div>
+            <div class="dev-value close">
+                <ul class="w-[90%] h-[90%] m-auto">
+                    <h3 class="text-[20px]"><strong> Developers </strong></h3>
+                    <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Consumer Developers</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Huawei Cloud Developers</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Kunpeng Developers</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Ascend Developers</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">See More ></li>
+                </ul>
+            </div>
+            <div class="train-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Training & Certification &nbsp; ></strong></h3>
+            </div>
+            <div class="train-value close">
+
+                <ul class="w-[90%] h-[90 m-auto%] ">
+                    <h3 class="text-[20px]"><strong> Training & Certification </strong></h3>
+                    <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Free ICT Course</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">ICT Acandemy</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Huawei Certification</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- ham-value5 -->
+        <div class="ham-value w-[100%] h-[120vh] trans-x-ham">
+
+
+            <div class="back w-[90%] m-auto h-[50px] flex items-center text-gray-600">
+                <span> back to the main menu </span>
+            </div>
+
+            <div class="border-b border-gray-300 w-[98%] text-[25px] m-auto ps-[10px]"> <span><strong> About Huawei
+                    </strong></span> </div>
+
+            <div class="about-item   w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> About Us ></strong></h3>
+            </div>
+
+            <div class="par-value close">
+                <ul class="mx-[15px]">
+                    <li class="my-[15px] text-gray-600 ">Our Company</li>
+                    <li class="my-[15px] text-gray-600 ">Annual Reports</li>
+                    <li class="my-[15px] text-gray-600 ">Corporate Govermance</li>
+                    <li class="my-[15px] text-gray-600 ">Executives</li>
+                    <li class="my-[15px] text-gray-600 ">Contact Us</li>
+                </ul>
+            </div>
+
+            <div class="new-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> News Events &nbsp; ></strong></h3>
+            </div>
+            <div class="dev-value close">
+                <ul class="mx-[15px]">
+                    <li class="my-[15px] text-gray-600 ">Sustainability</li>
+                    <li class="my-[15px] text-gray-600 ">Trust Center</li>
+                    <li class="my-[15px] text-gray-600 ">Open Source</li>
+                    <li class="my-[15px] text-gray-600 ">Innovation and intellectual property</li>
+                    <li class="my-[15px] text-gray-600 ">Compaliance and integerity</li>
+                </ul>
+                <ul class="w-[90%] h-[90 m-auto%] ">
+                    <h3 class="text-[20px]"><strong> Training & Certification </strong></h3>
+                    <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Free ICT Course</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">ICT Acandemy</li>
+                    <li class="my-[15px] text-gray-600 border-gray-300 py-[5px]">Huawei Certification</li>
+                </ul>
+
+                <ul class="mx-[15px]">
+                    <li class="my-[15px] text-gray-600 ">Bound Investor</li>
+                    <li class="my-[15px] text-gray-600 ">Supliers</li>
+                    <li class="my-[15px] text-gray-600 ">Careers</li>
+                    <li class="my-[15px] text-gray-600 ">Public Policy</li>
+                </ul>
+            </div>
+            <div class="ex-item  w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+                <h3><strong> Explore More &nbsp; ></strong></h3>
+            </div>
+            <div class="train-value close">
+
+
+                <ul class="w-[20%] h-[90%]">
+                    <h3 class="text-[20px]"><strong> New & Events </strong></h3>
+                    <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+                    <li class="my-[15px] text-gray-600">Media Center</li>
+                    <li class="my-[15px] text-gray-600">Events</li>
+                </ul>
+                <ul class="w-[20%] h-[90%] ">
+                    <h3 class="text-[20px]"><strong> Explore More </strong></h3>
+                    <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+                    <li class="my-[15px] text-gray-600">HuaweiTech</li>
+                    <li class="my-[15px] text-gray-600">Intelligent World 2025</li>
+                    <li class="my-[15px] text-gray-600">Striding Towards the intelligent World</li>
+                    <li class="my-[15px] text-gray-600">GDII</li>
+                    <li class="my-[15px] text-gray-600">Huawei Blog</li>
+                    <li class="my-[15px] text-gray-600">Publications</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <div class="search-div bg-white w-[100%] h-[100vh] lg:hidden z-50 fixed trans-x">
+        <div class="search-box bg-white h-[60px] flex items-center justify-evenly border-b border-gray-400">
+            <div class="search border-1 border-gray-300 h-[40px] bg-white shadow-md w-[90%]">
+                <input type="search" class="w-[90%] h-[40px] p-[10px]" placeholder="Search Huawie.com">
+                <i class="bi bi-search text-gray-600 text-[20px]"></i>
+            </div>
+            <i class="bi bi-x-circle text-gray-500 text-[30px] search-cross"></i>
+        </div>
+
+        <div
+            class="search-items my-[10px] m-auto w-[97%] h-[40px] bg-white text-[15px] flex items-center border-b border-gray-400">
+            <span> Quick Link </span>
+        </div>
+
+        <div
+            class="search-items my-[10px] m-auto w-[97%] h-[40px] bg-white text-[15px] flex items-center border-b border-gray-400">
+            <span><b> Tablet </b></span>
+        </div>
+
+        <div
+            class="search-items my-[10px] m-auto w-[97%] h-[40px] bg-white text-[15px] flex items-center border-b border-gray-400">
+            <span><b> Phone </b></span>
+        </div>
+
+        <div
+            class="search-items my-[10px] m-auto w-[97%] h-[40px] bg-white text-[15px] flex items-center border-b border-gray-400">
+            <span><b> Watch </b></span>
+        </div>
+        <div
+            class="search-items my-[10px] m-auto w-[97%] h-[40px] bg-white text-[15px] flex items-center border-b border-gray-400">
+            <span><b> Mate Book </b></span>
+        </div>
+
+        <div
+            class="search-items my-[10px] m-auto w-[97%] h-[40px] bg-white text-[15px] flex items-center border-b border-gray-400">
+            <span><b> Huawei Health </b></span>
+        </div>
+
+        <div
+            class="search-items my-[10px] m-auto w-[97%] h-[40px] bg-white text-[15px] flex items-center border-b border-gray-400">
+            <span><b> Huawei HiSuite </b></span>
+        </div>
+
+        <div
+            class="search-items my-[10px] m-auto w-[97%] h-[40px] bg-white text-[15px] flex items-center border-b border-gray-400">
+            <span><b> Free Clip </b></span>
+        </div>
+
+        <div
+            class="search-items my-[10px] m-auto w-[97%] h-[40px] bg-white text-[15px] flex items-center border-b border-gray-400">
+            <span><b> PC </b></span>
+        </div>
+    </div>
+    <!-- product-submenu -->
+    <div class="submenu w-[100%] h-[530px] bg-white flex justify-evenly fixed shadow-md z-10 sub-close ">
+        <ul class="nav-sub-ul w-[600px] h-[80%] flex flex-col items-start justify-center text-gray-600 overflow-hidden">
+            <div class="br-nav flex ms-[30px]">
+                <li class="flex flex-col  justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                        class="text-[55px] bi bi-phone"></i> <span>Smart Phone</span></li>
+                <li class="flex flex-col  justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                        class="text-[55px] bi bi-laptop"></i> <span>PC</span></li>
+                <li class="flex flex-col  justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                        class="text-[55px] bi bi-tablet"></i> <span>Tablet</span></li>
+                <li class="flex flex-col  justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                        class="text-[55px] bi bi-smartwatch"></i> <span>Wearable</span></li>
+                <li class="flex flex-col  justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                        class="text-[55px] bi bi-earbuds"></i> <span>Audio</span></li>
+            </div>
+            <div class="br-nav flex ms-[30px]">
+                <li class="flex flex-col  justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                        class="text-[55px] bi bi-router"></i> <span>Router</span></li>
+                <li class="flex flex-col  justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                        class="text-[55px] bi bi-backpack4-fill"></i> <span>EMUI</span></li>
+                <li class="flex flex-col  justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                        class="text-[55px] bi bi-phone-fill"></i> <span>Accesories</span></li>
+                <li class="flex flex-col  justify-center items-center w-[100px] mx-[10px] h-[145px]"><i
+                        class="text-[55px] bi bi-arrow-right-circle-fill"></i> <span>All Products</span></li>
+            </div>
+        </ul>
+
+        <div class="nav-video w-[30%] h-[80%] overflow-hidden">
+            <!-- <img class="w-[100%] h-[100%]" src="videos/mate-x7.mp4" alt=""> -->
+            <video class="" autoplay src="videos/mate-x7.mp4"></video>
+        </div>
+        <i class="sub-product-cross absolute top-5 right-[5%] text-[25px] bi bi-x-lg close"></i>
+
+        <!-- <div class="nav-sub-bottom absolute top-[50%] bg-gray-100 w-[100%] h-[100px] flex items-center">
+            <i class="bi bi-person ms-[11%] text-[40px] text-red-600"></i>
+            <span class="text-[10px]">Consumer Website</span>
+        </div> -->
+
+    </div>
+
+
+    <!-- --Business submenu -->
+
+
+    <div
+        class="Business submenu shadow-md w-[100%] h-[530px] bg-white flex justify-evenly items-center fixed z-10 sub-close overflow-hidden">
+        <ul class="w-[29%] h-[90%]">
+            <h3 class="text-[20px]"><strong> Products </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Carrier Network</li>
+            <li class="my-[15px] text-gray-600">Enterprise Networking</li>
+            <li class="my-[15px] text-gray-600">Enterprise Optical Networking</li>
+            <li class="my-[15px] text-gray-600">Enterprise Wireless</li>
+            <li class="my-[15px] text-gray-600">Data Storage</li>
+            <li class="my-[15px] text-gray-600">Huawei Cloud</li>
+        </ul>
+        <ul class="w-[29%] h-[90%]">
+            <h3 class="text-[20px]"><strong> Services </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Carrier Services</li>
+            <li class="my-[15px] text-gray-600">Enterprise Services</li>
+            <li class="my-[15px] text-gray-600">Cloud Services</li>
+        </ul>
+        <ul class="w-[29%] h-[90%] ">
+            <h3 class="text-[20px]"><strong> Industry Solutions </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Telecommunications</li>
+            <li class="my-[15px] text-gray-600">Education</li>
+            <li class="my-[15px] text-gray-600">Finance</li>
+            <li class="my-[15px] text-gray-600">Manufacturing</li>
+            <li class="my-[15px] text-gray-600">Airport</li>
+            <li class="my-[15px] text-gray-600">Urban Rail</li>
+            <li class="my-[15px] text-gray-600">See more ></li>
+        </ul>
+        <i class="sub-business-cross absolute top-5 right-[5%] text-[25px] bi bi-x-lg close"></i>
+        <div class="business-sub-bottom h-[100px] w-[100%] bg-gray-100 absolute bottom-0 flex items-center">
+            <ul class="flex w-[100%]">
+                <li class="mx-[40px] flex items-center ms-[80px]"><i
+                        class="text-red-800 me-[10px]  bi bi-hdd-stack text-[45px]"></i> <span
+                        class="text-gray-600">Enterprise website</span></li>
+                <li class="mx-[40px] flex items-center"> <i
+                        class="text-red-800 me-[10px]  bi bi-reception-4 text-[45px]"></i> <span
+                        class="text-gray-600">Carrier website</span></li>
+                <li class="mx-[40px] flex items-center"><i class="text-red-800 me-[10px]  bi bi-cloud text-[45px]"></i>
+                    <span class="text-gray-600">Huawei Cloud website</span>
+                </li>
+                <li class="mx-[40px] flex items-center"><i
+                        class="text-red-800 me-[10px]  bi bi-ev-front text-[45px]"></i> <span
+                        class="text-gray-600">Digital Power Website</span></li>
+            </ul>
+        </div>
+    </div>
+    <!-- support -->
+    <div
+        class="Business submenu shadow-md w-[100%] h-[500px] bg-white flex justify-evenly items-center fixed z-10 sub-close overflow-hidden">
+        <ul class="w-[20%] h-[90%]">
+            <h3 class="text-[20px]"><strong> Consumer Support </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Find Service Center</li>
+            <li class="my-[15px] text-gray-600">Product Support</li>
+            <li class="my-[15px] text-gray-600">Product Environmental Information</li>
+            <li class="my-[15px] text-gray-600">Call Us</li>
+            <li class="my-[15px] text-gray-600">Email Us</li>
+            <li class="my-[15px] text-gray-600">See more ></li>
+        </ul>
+        <ul class="w-[20%] h-[90%]">
+            <h3 class="text-[20px]"><strong> Huawei Cloud Support </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Self Service</li>
+            <li class="my-[15px] text-gray-600">Service Assurance</li>
+            <li class="my-[15px] text-gray-600">Support Plans</li>
+            <li class="my-[15px] text-gray-600">Public Notices</li>
+            <li class="my-[15px] text-gray-600">Feedback</li>
+            <li class="my-[15px] text-gray-600">See More ></li>
+        </ul>
+        <ul class="w-[20%] h-[90%] ">
+            <h3 class="text-[20px]"><strong> Enterprise Support </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Online Support</li>
+            <li class="my-[15px] text-gray-600">Product Support</li>
+            <li class="my-[15px] text-gray-600">Software Download</li>
+            <li class="my-[15px] text-gray-600">Community</li>
+            <li class="my-[15px] text-gray-600">Tools</li>
+            <li class="my-[15px] text-gray-600">See more ></li>
+        </ul>
+        <ul class="w-[20%] h-[90%] ">
+            <h3 class="text-[20px]"><strong> Industry Solutions </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Product Support</li>
+            <li class="my-[15px] text-gray-600">Group Space</li>
+            <li class="my-[15px] text-gray-600">Bulletins</li>
+            <li class="my-[15px] text-gray-600">Documentation Express</li>
+            <li class="my-[15px] text-gray-600">HedEx Lite</li>
+            <li class="my-[15px] text-gray-600">See more ></li>
+        </ul>
+        <i class="sub-business-cross absolute top-5 right-[5%] text-[25px] bi bi-x-lg close"></i>
+
+    </div>
+
+    <!-- Partners & Developers -->
+
+    <div
+        class="Business submenu shadow-md w-[100%] h-[500px] bg-white flex justify-evenly items-center fixed z-10 sub-close overflow-hidden">
+        <ul class="w-[20%] h-[90%]">
+            <h3 class="text-[20px]"><strong> Partners </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Enterprise Partners</li>
+            <li class="my-[15px] text-gray-600">Huawei Cloud Partners</li>
+            <li class="my-[15px] text-gray-600">Digital Power Partners</li>
+        </ul>
+        <ul class="w-[20%] h-[90%]">
+            <h3 class="text-[20px]"><strong> Developers </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Consumer Developers</li>
+            <li class="my-[15px] text-gray-600">Huawei Cloud Developers</li>
+            <li class="my-[15px] text-gray-600">Kunpeng Developers</li>
+            <li class="my-[15px] text-gray-600">Ascend Developers</li>
+            <li class="my-[15px] text-gray-600">See More ></li>
+        </ul>
+        <ul class="w-[20%] h-[90%] ">
+            <h3 class="text-[20px]"><strong> Training & Certification </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Free ICT Course</li>
+            <li class="my-[15px] text-gray-600">ICT Acandemy</li>
+            <li class="my-[15px] text-gray-600">Huawei Certification</li>
+        </ul>
+        <i class="sub-business-cross absolute top-5 right-[5%] text-[25px] bi bi-x-lg close"></i>
+
+    </div>
+
+    <!-- About Huawei -->
+
+    <div
+        class="Business submenu shadow-md w-[100%] h-[500px] bg-white flex justify-evenly items-center fixed z-10 sub-close overflow-hidden">
+        <ul class="w-[35%] h-[90%]">
+            <div class="">
+                <h3 class="text-[20px]"><strong> About Us </strong></h3>
+                <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            </div>
+            <div class="flex ">
+                <ul class="mx-[15px]">
+                    <li class="my-[15px] text-gray-600 ">Our Company</li>
+                    <li class="my-[15px] text-gray-600 ">Annual Reports</li>
+                    <li class="my-[15px] text-gray-600 ">Corporate Govermance</li>
+                    <li class="my-[15px] text-gray-600 ">Executives</li>
+                    <li class="my-[15px] text-gray-600 ">Contact Us</li>
+                </ul>
+                <ul class="mx-[15px]">
+                    <li class="my-[15px] text-gray-600 ">Sustainability</li>
+                    <li class="my-[15px] text-gray-600 ">Trust Center</li>
+                    <li class="my-[15px] text-gray-600 ">Open Source</li>
+                    <li class="my-[15px] text-gray-600 ">Innovation and intellectual property</li>
+                    <li class="my-[15px] text-gray-600 ">Compaliance and integerity</li>
+                </ul>
+
+                <ul class="mx-[15px]">
+                    <li class="my-[15px] text-gray-600 ">Bound Investor</li>
+                    <li class="my-[15px] text-gray-600 ">Supliers</li>
+                    <li class="my-[15px] text-gray-600 ">Careers</li>
+                    <li class="my-[15px] text-gray-600 ">Public Policy</li>
+                </ul>
+            </div>
+        </ul>
+        <ul class="w-[20%] h-[90%]">
+            <h3 class="text-[20px]"><strong> New & Events </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">Media Center</li>
+            <li class="my-[15px] text-gray-600">Events</li>
+        </ul>
+        <ul class="w-[20%] h-[90%] ">
+            <h3 class="text-[20px]"><strong> Explore More </strong></h3>
+            <div class="bg-gray-300 h-[1px] w-[100%] my-[10px]"></div>
+            <li class="my-[15px] text-gray-600">HuaweiTech</li>
+            <li class="my-[15px] text-gray-600">Intelligent World 2025</li>
+            <li class="my-[15px] text-gray-600">Striding Towards the intelligent World</li>
+            <li class="my-[15px] text-gray-600">GDII</li>
+            <li class="my-[15px] text-gray-600">Huawei Blog</li>
+            <li class="my-[15px] text-gray-600">Publications</li>
+        </ul>
+        <i class="sub-business-cross absolute top-5 right-[5%] text-[25px] bi bi-x-lg close"></i>
+
+    </div>
+
+
+    <!-- -----------------------------------Huawei Mate -------------------------------- -->
+    <!-- else -->
+    <div class="w-[30px] h-[40px] "></div>
+    <!-- <div class="mate-color bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.3)] w-[100%] h-[20%] z-[30]"> -->
+    <div
+        class="huawei-mate lg:hidden w-[100%] h-[107vw] mt-[10px] relative bg-[url('img/1.5.webp')] bg-contain flex justify-center ">
+
+        <div class="btn-mate cursor-pointer w-[160px] py-[3px] bg-[#C7020D] text-center absolute  text-white mt-[31%] ">
+            Learn More
+        </div>
+    </div>
+    <!-- </div> -->
+    <!-- xl -->
+    <!-- <div class="mate-color bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.3)] w-[100%] h-[20%] z-[30]"> -->
+
+    <div
+        class="huawei-mate hidden lg:block w-[100%] h-[33vw] mt-[10px] relative bg-[url('img/1.avif')] bg-contain flex justify-center  ">
+
+        <div
+            class="btn-mate cursor-pointer w-[160px] py-[5px] bg-[#C7020D] text-center absolute  text-white ms-[62%] mt-[20%] hover:bg-red-900 duration-300 z-[10]">
+            Learn
+            More</div>
+        <!-- </div> -->
+    </div>
+    <!-- -------------------------------------------------------- Whats new --------------------------------------- -->
+
+
+    <div class="h-[150px] whats-title flex justify-center items-center flex-col text-[25px] mt-[20px]">
+        <h2 class="text-[30px]"><strong>What's New</strong></h2>
+        <div class="space h-[2px] w-[150px] bg-red-600 ">
+        </div>
+    </div>
+
+    <div class="lg:hidden">
+
+        <div class="swiper mySwiper overflow-hidden h-[70vw] w-[95.5%] m-auto">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide w-[100%]">
+                    <img class="w-[100%] h-[100%]" src="img/slider/1.avif">
+                    <div
+                        class="img1-caption img-caption absolute bottom-0 text-white flex flex-col w-[100%] h-[100%] ps-[30px] py-[10px] text-[19px] justify-end">
+                        <span>PRODUCT</span>
+                        <span class="mb-[10px]"><b> HUAWEI FreeClip 2 </b></span>
+                        <span class="hover-img-box text-[20px] py-[10px]"><span class="text-red-600">></span></span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide w-[100%]">
+                    <img class="w-[100%] h-[100%]" src="img/slider/2.avif">
+                    <div
+                        class="img1-caption img-caption absolute bottom-0 text-white flex flex-col w-[100%] h-[100%] px-[40px] py-[10px] text-[19px] justify-end ">
+                        <span>AWARDS</span>
+                        <span class="mb-[10px]"><b> The OlympusMons Awards 2025 Are Open to International
+                                Contestants
+                            </b></span>
+                        <span class="hover-img-box text-[20px] py-[10px]"><span class="text-red-600">></span></span>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide w-[100%]">
+                    <img class="w-[100%] h-[100%]" src="img/slider/3.avif">
+                    <div
+                        class="img1-caption img-caption absolute bottom-0 text-white flex flex-col w-[100%] h-[100%] px-[40px] py-[10px] text-[19px] justify-end">
+                        <span>PRODUCT</span>
+                        <span class="mb-[50px]"><b> HUAWEI WATCH ULTIMATE DESIGN Royal Gold Edition </b></span>
+                        <span class="hover-img-box text-[20px] py-[10px]"><span class="text-red-600"></span></span>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+    <div class="img-pannel hidden lg:flex flex-col w-[90%] m-auto h-[58vw] ">
+        <div class="img-box1 img-box relative flex items-center justify-evenly ">
+            <div class="img1 whats-new-img cursor-pointer overflow-hidden  relative  bg-red-500">
+                <img class="w-[55vw]" src="img/lg-size-slider/1.avif" alt="">
+                <div
+                    class="img1-caption img-caption absolute bottom-0 text-white flex flex-col w-[100%] h-[100%] ps-[30px] py-[10px] text-[23px] justify-end">
+                    <span>PRODUCT</span>
+                    <span><b> HUAWEI FreeClip 2 </b></span>
+                    <span class="text-[#fff]">Barely there. Perfectly clear.</span>
+                    <span class="hover-img-box text-[20px] py-[10px]">Learn More <span
+                            class="text-red-600">></span></span>
+                </div>
+            </div>
+            <div class="img2 whats-new-img cursor-pointer overflow-hidden  relative  bg-red-500">
+                <img class="w-[27vw] " src="img/lg-size-slider/2.avif" alt="">
+                <div
+                    class="img1-caption img-caption absolute bottom-0 text-white flex flex-col w-[100%] h-[100%] px-[40px] py-[10px] text-[23px] justify-end">
+                    <span>AWARDS</span>
+                    <span><b> The OlympusMons Awards 2025 Are Open to International Contestants </b></span>
+                    <!-- <span class="text-[#fff]">Barely there. Perfectly clear.</span> -->
+                    <span class="hover-img-box text-[20px] py-[10px]">Learn More <span
+                            class="text-red-600">></span></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="img-box2 img-box relative flex items-center justify-evenly mt-[30px]">
+            <div class="img2 whats-new-img cursor-pointer overflow-hidden  relative  bg-red-500">
+                <img class="w-[26vw] " src="img/lg-size-slider/3.avif" alt="">
+                <div
+                    class="img1-caption img-caption absolute bottom-0 text-white flex flex-col w-[100%] h-[100%] px-[40px] py-[10px] text-[23px] justify-end">
+                    <span>PRODUCT</span>
+                    <span><b> HUAWEI WATCH ULTIMATE DESIGN Royal Gold Edition </b></span>
+                    <!-- <span class="text-[#fff]">Barely there. Perfectly clear.</span> -->
+                    <span class="hover-img-box text-[20px] py-[10px]">Learn More <span
+                            class="text-red-600">></span></span>
+
+                </div>
+            </div>
+            <div class="img2 whats-new-img cursor-pointer overflow-hidden  relative  bg-red-500">
+                <img class="w-[55vw] " src="img/lg-size-slider/4.avif" alt="">
+                <div
+                    class="img1-caption img-caption absolute bottom-0 text-white flex flex-col w-[100%] h-[100%] px-[40px] py-[10px] text-[23px] justify-end">
+                    <span>STORY</span>
+                    <span><b> Latin America TAC: Guarding Communications 24/7</b></span>
+                    <span class="text-[#fff]">Across Latin America and the Caribbean, a team of more than 200 Huawei
+                        engineers keeps networks up and running – around the clock.</span>
+                    <span class="hover-img-box text-[20px] py-[10px]">Learn More <span
+                            class="text-red-600">></span></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------Story---------------------- -->
+
+
+    <div class="story-img mt-[2%] mx-[20px] lg:hidden">
+        <img class="w-[100%]" src="img/2.avif" alt="">
+        <div class="story-caption flex flex-col p-[17px] bg-[#f5f5f5]">
+            <span>story</span>
+            <span> <b>Latin America TAC: Guarding Communications 24/7</b></span>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------- AI ------------------------ -->
+    <div class="huawei-ai w-[100%] mt-[50px] relative">
+        <img class="md:hidden" src="img/3.5.avif" alt="">
+        <img class="hidden md:block lg:hidden" src="img/3.7.avif" alt="">
+        <img class="hidden lg:block w-[100%]" src="img/3.avif" alt="">
+
+
+        <div
+            class="btn-mate cursor-pointer absolute top-0 right-[75%] hidden lg:block w-[160px] py-[5px] bg-[#C7020D] text-center absolute  text-white ms-[62%] mt-[20%] hover:bg-red-900 duration-300">
+            Learn
+            More</div>
+    </div>
+
+    <!-- -------------------- News & Events ---------------- -->
+
+
+    <!-- Event1 -->
+    <div class="event1 m-[20px] relative flex flex-col lg:hidden">
+        <div class="event-img-box bg-red-500 ] w-[100%">
+            <img class="w-[100%] event-img " src="img/4.avif" alt="">
+        </div>
+        <div class="event1-caption bg-[#f5f5f5] flex flex-col p-[17px]">
+            <span class="mb-[6px]"><b> MWC Barcelona 2026 </b></span>
+            <span class="mb-[20px]">Barcelona, Spain &nbsp; MAR 2 - 5, 2026</span>
+            <span class="text-[#666] text-[13px]">Advancing All Intelligence</span>
+        </div>
+        <div
+            class="event1-type bg-[url('img/type-background.png')] w-[80px] h-[32px] flex justify-center items-center absolute top-0 text-white">
+            <!-- <img src="img/type-background.png" alt=""> -->
+            <span>EVENT</span>
+        </div>
+    </div>
+
+    <!-- Event2 -->
+    <div class="event2 m-[20px] relative lg:hidden">
+        <div class="event-img-box relative bg-red-500 overflow-hidden w-[100%] ">
+            <img class="w-[100%] event-img " src="img/5.webp" alt="">
+        </div>
+        <div class="event2-caption bg-[#f5f5f5] flex flex-col p-[17px] hover:border">
+            <span class="mb-[6px]"><b>
+                    5G Core Summit 2025
+                </b></span>
+            <span class="mb-[20px]">
+                Bangkok, Thailand
+                &nbsp; &nbsp; MAR 2 - 5,
+                NOV 26, 2025
+            </span>
+            <span class="text-[#666] text-[13px] ">
+                Intelligent Core Empowers the Mobile AI Era
+            </span>
+        </div>
+        <div
+            class="event1-type bg-[url('img/type-background.png')] w-[80px] h-[32px] flex justify-center items-center absolute top-0 text-white">
+            <span>EVENT</span>
+        </div>
+    </div>
+    <!-- news -->
+    <div class="news h-[70vw] bg-[#f5f5f5] m-[20px] flex flex-col items-center relative lg:hidden">
+        <div class="news-value w-[100%] h-[80%] m-auto flex flex-col items-center overflow-scroll">
+
+            <div class="news-item1 w-[95%] mt-[60px] text-[#333]">
+                <h4>
+                    <b>Claro Peru and Huawei Deploy World's First Commercial EcoMatrix Site
+                    </b>
+                </h4>
+                <span class="text-[#666] text-[13px]">DEC 24, 2025</span>
+            </div>
+
+            <div class="news-item2 w-[95%] mt-[40px] text-[#333]">
+                <h4>
+                    <b>
+                        Huawei CBS Recognized as a Leader in Omdia’s “Telecom Billing Market Radar - 2025” Report
+                    </b>
+                </h4>
+                <span class="text-[#666] text-[13px]">DEC 22, 2025</span>
+            </div>
+
+            <div class="news-item3 w-[95%] mt-[40px] text-[#333]">
+                <h4>
+                    <b>
+                        du first global integration of 25Gbps E-band Backhaul into 5G-A to enhance customer
+                        experience
+                    </b>
+
+                </h4>
+                <span class="text-[#666] text-[13px]">DEC 17, 2025</span>
+            </div>
+
+            <div class="news-item4 w-[95%] mt-[40px] text-[#333]">
+                <h4>
+                    <b>
+                        Huawei and Partners Win 2025 Glotel Awards
+                    </b>
+
+                </h4>
+                <span class="text-[#666] text-[13px]">DEC 12, 2025</span>
+            </div>
+
+            <div class="news-item5 w-[95%] mt-[40px] text-[#333] pb-[60px]">
+                <h4>
+                    <b>
+                        Huawei collaborates with BBI in Building an Intelligent All-Optical Backbone Network to
+                        Advance
+                        South
+                        Africa's National Broadband Strategy
+                    </b>
+
+                </h4>
+                <span class="text-[#666] text-[13px]">DEC 08, 2025</span>
+            </div>
+        </div>
+        <div class="news-type w-[100%] bg-white">
+            <div
+                class="event1-type bg-[url('img/type-background.png')] w-[80px] h-[32px] flex justify-center items-center absolute top-0 text-white text-[14px] left-0 ">
+                <span>NEWS</span>
+            </div>
+        </div>
+        <div class="news-btn bg-white w-[100%] h-[100px] flex justify-center items-center">
+            <div
+                class="news-btn1 btn1 hover:bg-[#C7020D] w-[138px] h-[30px] border mx-[20px] flex justify-center items-center">
+                More Events
+            </div>
+            <div
+                class="news-btn2 btn1 hover:bg-[#C7020D] w-[138px] h-[30px] border mx-[20px] flex justify-center items-center">
+                More News
+            </div>
+        </div>
+
+    </div>
+    <!-- ----------------------------- lg size of news & events --------------------------------- -->
+    <div class="lg-news-events w-[90%] m-auto h-[93vw] mt-[20px] flex flex-col hidden lg:flex">
+        <div class="h-[47px] whats-title flex justify-center items-center flex-col text-[25px] mt-[20px]">
+            <h2 class="text-[30px]"><strong>News & Events</strong></h2>
+            <div class="space h-[2px] w-[90px] bg-red-600 ">
+            </div>
+        </div>
+        <div class="all-events-news flex justify-evenly mt-[40px]">
+
+            <div class="event-lg-1 event-lg w-[26vw] relative">
+                <div class="event-img  overflow-hidden w-[100%]">
+                    <img class="w-[100%]" src="img/4.avif" alt="">
+                </div>
+                <div class="event1-caption event-caption bg-[#f5f5f5] flex flex-col p-[17px]  h-[184px]">
+                    <span class="mb-[6px]"><b> MWC Barcelona 2026 </b></span>
+                    <span class="mb-[20px]">Barcelona, Spain &nbsp; MAR 2 - 5, 2026</span>
+                    <span class="text-[#666] text-[13px]">Advancing All Intelligence</span>
+
+                </div>
+                <div
+                    class="event1-type bg-[url('img/type-background.png')] w-[80px] h-[32px] flex justify-center items-center absolute top-0 text-white">
+                    <!-- <img src="img/type-background.png" alt=""> -->
+                    <span>EVENT</span>
+                </div>
+            </div>
+
+
+            <div class="event-lg-2 event-lg w-[26vw] relative">
+                <div class="event-img overflow-hidden w-[100%]">
+                    <img class="w-[100%]" src="img/5.webp" alt="">
+                </div>
+                <div class="event1-caption event-caption bg-[#f5f5f5] flex flex-col p-[17px]  h-[184px]">
+                    <span class="mb-[6px]"><b> MWC Barcelona 2026 </b></span>
+                    <span class="mb-[20px]">Barcelona, Spain &nbsp; MAR 2 - 5, 2026</span>
+                    <span class="text-[#666] text-[13px]">Advancing All Intelligence</span>
+
+                </div>
+                <div
+                    class="event1-type bg-[url('img/type-background.png')] w-[80px] h-[32px] flex justify-center items-center absolute top-0 text-white">
+                    <!-- <img src="img/type-background.png" alt=""> -->
+                    <span>EVENT</span>
+                </div>
+            </div>
+
+            <div class="news-lg w-[26vw] relative bg-[#f5f5f5] flex flex-col items-center">
+                <div class="news-item1 w-[95%] mt-[60px] text-[#333]">
+                    <h4 class="hover:text-red-600">
+                        <b>Claro Peru and Huawei Deploy World's First Commercial EcoMatrix Site
+                        </b>
+                    </h4>
+                    <span class="text-[#666] hover:text-red-600 text-[13px]">DEC 24, 2025</span>
+                </div>
+
+                <div class="news-item2 w-[95%] mt-[40px] text-[#333]">
+                    <h4 class="hover:text-red-600">
+                        <b>
+                            Huawei CBS Recognized as a Leader in Omdia’s “Telecom Billing Market Radar - 2025”
+                            Report
+                        </b>
+                    </h4>
+                    <span class="text-[#666] text-[13px] hover:text-red-600">DEC 22, 2025</span>
+                </div>
+
+                <div class="news-item3 w-[95%] mt-[40px] text-[#333]">
+                    <h4 class="hover:text-red-600">
+                        <b>
+                            du first global integration of 25Gbps E-band Backhaul into 5G-A to enhance customer
+                            experience
+                        </b>
+
+                    </h4>
+                    <span class="text-[#666] text-[13px] hover:text-red-600">DEC 17, 2025</span>
+                </div>
+
+                <div class="news-item4 w-[95%] mt-[40px] text-[#333]">
+                    <h4 class="hover:text-red-600">
+                        <b>
+                            Huawei and Partners Win 2025 Glotel Awards
+                        </b>
+
+                    </h4>
+                    <span class="text-[#666] text-[13px] hover:text-red-600">DEC 12, 2025</span>
+                </div>
+
+                <div class="news-item5 w-[95%] mt-[40px] text-[#333] pb-[60px]">
+                    <h4 class="hover:text-red-600">
+                        <b>
+                            Huawei collaborates with BBI in Building an Intelligent All-Optical Backbone Network to
+                            Advance
+                            South
+                            Africa's National Broadband Strategy
+                        </b>
+
+                    </h4>
+                    <span class="text-[#666] text-[13px] hover:text-red-600">DEC 08, 2025</span>
+                </div>
+
+                <div
+                    class="event1-type bg-[url('img/type-background.png')] w-[80px] h-[32px] flex justify-center items-center absolute top-0 left-0 text-white">
+                    <!-- <img src="img/type-background.png" alt=""> -->
+                    <span>NEWS</span>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="news-btn bg-white w-[100%] h-[100px] flex justify-center py-[50px] items-center ">
+            <div
+                class="news-btn1 hover:bg-[#c7000b] cursor-pointer hover:text-white w-[138px] h-[30px] border mx-[20px] flex py-[20px] justify-center items-center">
+                More
+                Events</div>
+            <div
+                class="news-btn2 hover:bg-[#c7000b] cursor-pointer hover:text-white w-[138px] h-[30px] border mx-[20px] flex py-[20px] justify-center items-center">
+                More
+                News</div>
+        </div>
+
+
+    </div>
+
+    <!-- -----------------footer---------------------------- -->
+
+
+    <!-- --------------------small size--------------------- -->
+    <div class="footer w-[100%]  bg-[#f2f2f2] lg:hidden">
+
+        <!-- 0 -->
+
+        <div class="footer-seerch w-[100%] h-[65px] flex items-center justify-center">
+
+            <div
+                class="footer-seerch-box w-[95%] h-[46px] bg-white m-auto flex justify-evenly items-center border-1 border-gray-300 ">
+                <input type="text" class="w-[85%] h-[100%] ">
+                <div class="space w-[1px] h-[30px] bg-gray-200"></div>
+                <i class="bi bi-search ms-[3px] text-[20px] text-gray-400"></i>
+            </div>
+        </div>
+
+        <div class="space-border w-[95%] h-[1px] mt-[5px] bg-gray-300 m-auto"></div>
+
+        <!-- 1 -->
+
+        <div class="footer-item1 w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+            <h3><strong> About Huawei </strong></h3>
+        </div>
+
+        <div class="item1-focus  mt-[7px] w-[93%] m-auto close">
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href="">Our Company</a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href="">Sustainability</a>
+            </div>
+
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href="">Trust Center</a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href="">Career</a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href="">Supliers</a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href="">See More ></a>
+            </div>
+        </div>
+
+        <!-- 2 -->
+
+        <div class="footer-item2 w-[95%]  m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+            <h3><strong> News & Events </strong></h3>
+        </div>
+
+        <div class="item2-focus mt-[7px] w-[93%] m-auto close">
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href="">Media Center</a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href=""> Events </a>
+            </div>
+
+        </div>
+
+        <!-- 3 -->
+
+        <div class="footer-item3 w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+            <h3><strong> Explore Huawei </strong></h3>
+        </div>
+
+
+        <div class="item3-focus mt-[7px] w-[93%] m-auto close">
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href="">HuaweiTech</a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href=""> Intelegent World 2035 </a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href=""> Striding Towards the Intelegent World </a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href=""> GDII </a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href=""> Huasei Blog </a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href=""> Publications </a>
+            </div>
+        </div>
+
+        <!-- 4 -->
+
+
+        <div class="footer-item4 w-[95%] h m-auto px-[5px] py-[10px] border-b border-gray-300 mt-[20px]">
+            <h3><strong> Support </strong></h3>
+        </div>
+
+
+        <div class="item4-focus mt-[7px] w-[93%] m-auto  close">
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href="">Consumer Support</a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href=""> Huawei Cloud Support </a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href=""> Enterprise Support </a>
+            </div>
+
+            <div
+                class="focus-value py-[10px] text-[14px] text-[#333] border-b border-gray-300 flex items-center my-[8px]">
+                <a href=""> Security Incident Response </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- --------------------------------large size--------------- -->
+    <div class="lg-footer hidden bg-[#f5f5f5] lg:flex justify-center pt-[20px] ">
+
+        <div class="footer-lg-items w-[80%]">
+
+
+            <div
+                class="footer-seerch w-[100%] h-[65px] flex flex-row-reverse relative justify-between items-center border-b border-gray-300">
+                <div class="box w-[40%] flex flex-col absolute right-0 top-[10px]">
+
+
+                    <div
+                        class="footer-seerch-box w-[100%] h-[46px] bg-white flex justify-evenly items-center border-1 border-gray-300 ">
+                        <input type="text" class="w-[85%] h-[100%] footer-search-inp">
+                        <div class="space w-[1px] h-[30px] bg-gray-200"></div>
+                        <i class="bi bi-search ms-[3px] text-[20px] text-gray-400"></i>
+                    </div>
+
+
+                    <div
+                        class="footer-search-direct-box w-[100%] py-[30px] shadow shadow-md z-50 bg-white mt-[10px] rounded-md close">
+                        <ul class="w-[100%] h-[90%] m-auto flex justify-center items-center flex-col">
+                            <li class="text-gray-400 w-[100%] my-[7px] px-[30px]"><strong>Quick Links</strong></li>
+                            <li
+                                class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                                Tablet</li>
+                            <li
+                                class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                                phone</li>
+                            <li
+                                class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                                Watch</li>
+                            <li
+                                class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                                MateBook</li>
+                            <li
+                                class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                                Huawei Health</li>
+                            <li
+                                class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                                Huawei HiSuite</li>
+                            <li
+                                class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                                FreeClip</li>
+                            <li
+                                class="w-[100%] text-[17px] text-gray-800 my-[3px] font-medium hover:bg-gray-400 hover:text-gray-100 py-[5px] px-[30px]">
+                                PC</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <span class="text-gray-600 absolute left-[20px]">Home</span>
+
+            </div>
+
+
+            <div class="footer-lg-ul-div w-[100%] py-[48px] mb-[38px] flex justify-between border-b border-gray-300">
+
+                <ul class="footer-lg-ul1">
+                    <li class="footer-lg-li mb-[18px]">
+                        <h3>
+                            <b> About Huawei </b>
+                        </h3>
+                    </li>
+
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Our Company</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Sustainability</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Trust Center</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Executives</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Careers</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Suppliers</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">See More ></a></li>
+                </ul>
+
+                <ul class="footer-lg-ul2">
+                    <li class="footer-lg-li mb-[18px]">
+                        <h3>
+                            <b> News & Events </b>
+                        </h3>
+                    </li>
+
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Media Center</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Events</a></li>
+                </ul>
+
+                <ul class="footer-lg-ul3">
+                    <li class="footer-lg-li mb-[18px]">
+                        <h3>
+                            <b> Explore Huawei </b>
+                        </h3>
+                    </li>
+
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">HuaweiTech</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Intelegent World 2035</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Striding Towards the Intelegent
+                            World</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">GDII </a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Huasei Blog</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Publications</a></li>
+                </ul>
+
+                <ul class="footer-lg-ul4">
+                    <li class="footer-lg-li mb-[18px]">
+                        <h3>
+                            <b> Products </b>
+                        </h3>
+                    </li>
+
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Consumer</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Enterprise</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Carrier</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Huawei Cloud </a></li>
+                </ul>
+
+                <ul class="footer-lg-ul5">
+                    <li class="footer-lg-li mb-[18px]">
+                        <h3>
+                            <b> Support </b>
+                        </h3>
+                    </li>
+
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Consumer Support</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Huawei Cloud Support</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Enterprise Support</a></li>
+                    <li class="footer-lg-li mb-[18px] text-gray-600"><a href="">Security Incident Response </a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="footer-icon h-[150px] w-[100%] flex flex-col items-center justify-center bg-[#f2f2f2] ">
+        <span>Huawei Cloud</span>
+        <ul class="flex text-[30px] text-gray-600">
+            <li class="mx-[10px] hover:text">
+
+                <i class="bi bi-linkedin"></i>
+            </li>
+            <li class="mx-[10px] hover:text">
+
+                <i class="bi bi-facebook"></i>
+            </li>
+            <li class="mx-[10px] hover:text">
+
+                <i class="bi bi-twitter-x"></i>
+            </li>
+            <li class="mx-[10px] hover:text">
+
+                <i class="bi bi-youtube"></i>
+            </li>
+            <li class="mx-[10px] hover:text">
+                <i class="bi bi-instagram"></i>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer-end bg-gray-200 text-gray-600">
+        <ul class="flex flex-col justify-center text-center">
+            <li>Copyright © 2026 Huawei Technologies Co., Ltd.</li>
+            <div class="last-footer-item flex justify-center ">
+                <li class="mx-3">Contact</li>
+                <li class="mx-3">Terms of Use</li>
+                <li class="mx-3">Privacy</li>
+                <li class="mx-3">Cookies</li>
+            </div>
+        </ul>
+    </div>
+
+    <div
+        class="support cursor-pointer w-[40px] h-[40px] bg-red-500 fixed z-80 right-[2px] bottom-[73px] flex justify-center items-center rounded-sm">
+        <i class="bi bi-headset text-white text-[30px]"></i>
+    </div>
+
+    <div class="support-back  w-[100%] h-[100%] bg-[rgba(0,0,0,0.5)] top-0 right-0 fixed z-11 close">
+        <div
+            class="support-value w-[80%] h-[60%] m-auto bg-white fixed top-[20%] right-[10%] z-10 flex flex-col py-[30px] close">
+            <div class="sup-text flex flex-col w-[30%] m-auto justify-center items-center">
+                <h2 class="text-center text-[30px]"><strong> Online Service </strong></h2>
+                <div class="red-space bg-red-500 h-[2px] w-[30%]"></div>
+            </div>
+            <ul class="w-[100%] h-[80%] flex items-center justify-center ">
+                <li class="flex justify-center w-[25%] h-[50%] flex-col items-center border-e">
+                    <img src="img/support/1.png" class="w-[20%] my-[30px]" alt="">
+                    <h4 class="text-[17px]"><strong> Consumer Product </strong></h4>
+                    <span>Global Service Hotline ></span>
+                    <div class="sup-btn hover:bg-red-700 hover:text-white w-[200px] mt-[30px] h-[40px] border flex items-center justify-center py-[10px]"> Local
+                        Website</div>
+                </li>
+
+                <li class="flex justify-center w-[25%] h-[50%] flex-col items-center border-e">
+                    <img src="img/support/2.png" class="w-[26%] my-[30px]" alt="">
+                    <h4 class="text-[17px]"><strong> Huawei Cloud </strong></h4>
+                    <span>Sales +852-800-931-122</span>
+                    <div class="sup-btn hover:bg-red-700 hover:text-white w-[200px] mt-[30px] h-[40px] border flex items-center justify-center py-[10px]"> ChatBot
+                    </div>
+                </li>
+
+                <li class="flex justify-center w-[25%] h-[50%] flex-col items-center border-e">
+                    <img src="img/support/3.png" class="w-[20%] my-[30px]" alt="">
+                    <h4 class="text-[17px]"><strong> Enterprise </strong></h4>
+                    <span>Global Service Hotline ></span>
+                    <div class="sup-btn hover:bg-red-700 hover:text-white w-[200px] mt-[30px] h-[40px] border flex items-center justify-center py-[10px]">
+                        Pricing/info</div>
+                </li>
+                <li class="flex justify-center w-[25%] h-[50%] flex-col items-center">
+                    <img src="img/support/4.png" class="w-[20%] my-[30px]" alt="">
+                    <h4 class="text-[17px]"><strong> Carrier Network </strong></h4>
+                    <span>Global Service Hotline ></span>
+                </li>
+            </ul>
+
+            <h2 class="text-center text-[16px] my-[20px]">All Contact <span class="text-red-700">></span></h2>
+
+        </div>
+
+    </div>
+    <div
+        class="scroll cursor-pointer w-[40px] h-[40px] bg-gray-400 fixed z-80 right-[2px] bottom-[30px] flex justify-center items-center rounded-sm">
+        <i class="bi bi-arrow-bar-up text-white text-[30px]"></i>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
